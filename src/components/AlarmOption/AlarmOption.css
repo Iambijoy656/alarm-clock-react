@@ -1,0 +1,29 @@
+.option-Container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.disable {
+    pointer-events: none;
+}
+
+
+select option {
+    display: block;
+    color: #fff;
+}
+
+
+.play {
+    background-color: orange;
+    color: #000;
+}
